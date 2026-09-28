@@ -1,0 +1,37 @@
+body{
+    background: url(../img/фон.jpg) repeat-y 100% fixed 
+}
+.aqua{
+    color: hotpink;
+    text-decoration: overline solid olivedrab;
+}
+.right{
+  text-align: right;  
+}
+.blue{
+    color:blueviolet;
+}
+.center{
+    text-align: center;
+}
+.big{
+font-size: 2rem;
+}
+.first-line::first-line{
+    font-weight: bold;
+}
+.alpha{
+list-style-type: lower-greek;
+}
+.disc{
+    list-style-type: disc;
+}
+.table{
+    border-top: 20px darkred solid;
+    border-right: 5px dashed aqua;
+    border-bottom: 10px inset purple;
+    border-left: 10px dotted orange;
+}
+.force-square {
+  list-style-type: square !important;
+}
